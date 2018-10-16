@@ -1,3 +1,4 @@
 # Studio
 TatianaWebStudio
-I love :dancer:, :travel: and :programming:
+
+I love :dancer:, :fafighter-jet: and :faglobe:
