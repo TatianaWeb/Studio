@@ -1,6 +1,6 @@
 # Studio
 TatianaWebStudio
 
-I love :dancer:,:music:, and :Information Technology:.
+I love :dancer: and :www:.
 
 
