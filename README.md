@@ -1,4 +1,6 @@
 # Studio
 TatianaWebStudio
 
-I love :dancer:, {fafighter-jet} and {faglobe}
+I love :dancer:
+
+
