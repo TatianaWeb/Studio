@@ -1,6 +1,6 @@
 # Studio
 TatianaWebStudio
 
-I love :dancer: and :globe:.
+I love :dancer: and travelling.
 
 
