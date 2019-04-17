@@ -92,16 +92,11 @@ h1 {
  */
 
 .score-panel {
-    text-align: left;
-    width: 345px;
-    margin-bottom: 10px;
-}
-
-.score-panel .stars {
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-    margin: 0 5px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    width: 60%;
 }
 
 .score-panel .stars li {
@@ -110,6 +105,60 @@ h1 {
 }
 
 .score-panel .restart {
-    float: right;
     cursor: pointer;
+}
+
+.modal_background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.modal_body {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    background-color: #fff;
+    transform: translate(-50%, -70%);
+}
+
+.modal_heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.modal_close {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.modal_stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    margin: 1em;
+    border-bottom: 1px solid #ddd;
+}
+
+.modal_buttons {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.modal_button {
+    width: 60px;
+    height: 30px;
+}
+
+.hide {
+    display: none;
 }
