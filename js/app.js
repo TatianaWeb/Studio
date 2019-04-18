@@ -209,27 +209,27 @@ function hideStar() {
 }
 
 document.querySelector('.modal_cancel').addEventListener('click', () => {
-    resetClockAndTime();
-    resetMoves();
+    //resetClockAndTime();
+    //resetMoves();
     //resetStars();
     shuffleDeck();
     toggleModal();
 });
 
-//document.querySelector('modal_replay').addEventListener('click', replayGame);
-
-function replayGame() {
+document.querySelector('.modal_replay').addEventListener('click', () => {
     resetGame();
     toggleModal();
-}
+});
 
 document.querySelector('.restart').addEventListener('click', resetGame);
 
 function resetGame() {
-    resetClockAndTime();
-    resetMoves();
-    resetStars();
+    //resetClockAndTime();
+    //resetMoves();
+    //resetStars();
     shuffleDeck();
+    addToggleCard();
+    document.location.href = '';
 }
 
 function resetClockAndTime() {
@@ -245,7 +245,7 @@ function resetMoves() {
 }
 
 function resetStars() {
-    stars = 0;
+    let stars = 0;
     const starList = document.querySelectionAll('.stars li');
     for (star of starList) {
         star.style.display = 'inline';
